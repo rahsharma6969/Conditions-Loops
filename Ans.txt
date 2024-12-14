@@ -1,0 +1,43 @@
+
+What are conditional statements? Explain conditional statements with syntax and examples.
+
+Conditional statements are used to perform different actions based on whether a condition is true or false. They allow the program to make decisions and control the flow of execution.
+
+### Syntax:
+
+1. **if statement:**
+   ```python
+   if condition:
+       # code block executed if condition is true
+   ```
+
+2. **if-else statement:**
+   ```python
+   if condition:
+       # code block executed if condition is true
+   else:
+       # code block executed if condition is false
+   ```
+
+3. **if-elif-else statement:**
+   ```python
+   if condition1:
+       # code block executed if condition1 is true
+   elif condition2:
+       # code block executed if condition2 is true
+   else:
+       # code block executed if no condition is true
+   ```
+
+### Example:
+
+```python
+age = 18
+
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+```
+
+Output: `Adult` (since age is 18)
